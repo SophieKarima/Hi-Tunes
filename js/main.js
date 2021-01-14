@@ -15,8 +15,8 @@ $(function() {
   });
 
   $("nav li").on("click", function(e) {
-    var w = $(window).width();
-    if (w < 480) {
+    var wid = $(window).width();
+    if (wid < 480) {
       menu.slideToggle();
     }
   });
